@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestBank.Core", "Core\QuestBank.Core.csproj", "{0E44AC68-55DE-42AB-B962-D61F4372DF71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestBank.Test", "Test\QuestBank.Test.csproj", "{0881883A-F363-4A61-B07C-091BC8FFE2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestBank.TestUI", "TestUI\QuestBank.TestUI.csproj", "{F80C2596-2DD5-442A-8E7F-63DDEF292CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestBank.Back", "Back\QuestBank.Back.csproj", "{8CCA0B6E-23CB-4B11-8692-F9D7003C0A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E44AC68-55DE-42AB-B962-D61F4372DF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E44AC68-55DE-42AB-B962-D61F4372DF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E44AC68-55DE-42AB-B962-D61F4372DF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E44AC68-55DE-42AB-B962-D61F4372DF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0881883A-F363-4A61-B07C-091BC8FFE2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0881883A-F363-4A61-B07C-091BC8FFE2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0881883A-F363-4A61-B07C-091BC8FFE2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0881883A-F363-4A61-B07C-091BC8FFE2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80C2596-2DD5-442A-8E7F-63DDEF292CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80C2596-2DD5-442A-8E7F-63DDEF292CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80C2596-2DD5-442A-8E7F-63DDEF292CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80C2596-2DD5-442A-8E7F-63DDEF292CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCA0B6E-23CB-4B11-8692-F9D7003C0A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCA0B6E-23CB-4B11-8692-F9D7003C0A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCA0B6E-23CB-4B11-8692-F9D7003C0A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCA0B6E-23CB-4B11-8692-F9D7003C0A33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

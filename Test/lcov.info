@@ -1,0 +1,277 @@
+SF:/Users/guiem/Projects/QuestBank/Core/QuestionAggregate/Answer.cs
+FN:4,System.Char QuestBank.Core.QuestionAggregate.Answer::get_Id()
+FNDA:0,System.Char QuestBank.Core.QuestionAggregate.Answer::get_Id()
+DA:5,0
+FN:5,System.String QuestBank.Core.QuestionAggregate.Answer::get_Text()
+FNDA:0,System.String QuestBank.Core.QuestionAggregate.Answer::get_Text()
+DA:6,0
+FN:7,System.Void QuestBank.Core.QuestionAggregate.Answer::.ctor(System.Char,System.String)
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.Answer::.ctor(System.Char,System.String)
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/Users/guiem/Projects/QuestBank/Core/QuestionAggregate/Item/Item.cs
+FN:4,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.Item::get_Id()
+FNDA:0,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.Item::get_Id()
+DA:5,0
+FN:6,System.Int32 QuestBank.Core.QuestionAggregate.Item::get_QuestionId()
+FNDA:0,System.Int32 QuestBank.Core.QuestionAggregate.Item::get_QuestionId()
+DA:7,0
+FN:8,System.Collections.Generic.KeyValuePair`2<System.Char,System.String> QuestBank.Core.QuestionAggregate.Item::get_Statement()
+FNDA:0,System.Collections.Generic.KeyValuePair`2<System.Char,System.String> QuestBank.Core.QuestionAggregate.Item::get_Statement()
+DA:9,0
+FN:10,System.Collections.Generic.Dictionary`2<System.Char,System.String> QuestBank.Core.QuestionAggregate.Item::get_Answers()
+FNDA:0,System.Collections.Generic.Dictionary`2<System.Char,System.String> QuestBank.Core.QuestionAggregate.Item::get_Answers()
+DA:11,0
+FN:12,System.Void QuestBank.Core.QuestionAggregate.Item::.ctor(System.Int32,System.Collections.Generic.KeyValuePair`2<System.Char,System.String>,System.Collections.Generic.Dictionary`2<System.Char,System.String>)
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.Item::.ctor(System.Int32,System.Collections.Generic.KeyValuePair`2<System.Char,System.String>,System.Collections.Generic.Dictionary`2<System.Char,System.String>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/Users/guiem/Projects/QuestBank/Core/QuestionAggregate/Item/ItemId.cs
+FN:6,System.Int32 QuestBank.Core.QuestionAggregate.ItemId::get_QuestionId()
+FNDA:0,System.Int32 QuestBank.Core.QuestionAggregate.ItemId::get_QuestionId()
+DA:7,0
+FN:8,System.Char QuestBank.Core.QuestionAggregate.ItemId::get_StatementId()
+FNDA:0,System.Char QuestBank.Core.QuestionAggregate.ItemId::get_StatementId()
+DA:9,0
+FN:10,System.Char[] QuestBank.Core.QuestionAggregate.ItemId::get_AnswersIds()
+FNDA:0,System.Char[] QuestBank.Core.QuestionAggregate.ItemId::get_AnswersIds()
+DA:11,0
+FN:20,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.ItemId::Empty(System.Int32,System.Int32)
+FNDA:0,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.ItemId::Empty(System.Int32,System.Int32)
+DA:21,0
+FN:23,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.ItemId::Parse(System.String)
+FNDA:0,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.ItemId::Parse(System.String)
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+FN:30,System.String QuestBank.Core.QuestionAggregate.ItemId::ToString()
+FNDA:0,System.String QuestBank.Core.QuestionAggregate.ItemId::ToString()
+DA:31,0
+FN:13,System.Void QuestBank.Core.QuestionAggregate.ItemId::.ctor(System.Int32,System.Char,System.Char[])
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.ItemId::.ctor(System.Int32,System.Char,System.Char[])
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+LF:14
+LH:0
+BRF:0
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/Users/guiem/Projects/QuestBank/Core/QuestionAggregate/Question.cs
+FN:8,System.Int32 QuestBank.Core.QuestionAggregate.Question::get_Id()
+FNDA:0,System.Int32 QuestBank.Core.QuestionAggregate.Question::get_Id()
+DA:9,0
+FN:10,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Statement> QuestBank.Core.QuestionAggregate.Question::get_Statements()
+FNDA:0,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Statement> QuestBank.Core.QuestionAggregate.Question::get_Statements()
+DA:11,0
+FN:12,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Answer> QuestBank.Core.QuestionAggregate.Question::get_Answers()
+FNDA:0,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Answer> QuestBank.Core.QuestionAggregate.Question::get_Answers()
+DA:13,0
+FN:14,System.Collections.Generic.Dictionary`2<System.Char,System.String> QuestBank.Core.QuestionAggregate.Question::get_Solutions()
+FNDA:0,System.Collections.Generic.Dictionary`2<System.Char,System.String> QuestBank.Core.QuestionAggregate.Question::get_Solutions()
+DA:15,0
+FN:16,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.ItemId> QuestBank.Core.QuestionAggregate.Question::get_Predefined()
+FNDA:0,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.ItemId> QuestBank.Core.QuestionAggregate.Question::get_Predefined()
+DA:17,0
+FN:43,System.Char QuestBank.Core.QuestionAggregate.Question::AddStatement(System.String)
+FNDA:0,System.Char QuestBank.Core.QuestionAggregate.Question::AddStatement(System.String)
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+DA:51,0
+BRDA:45,12,0,0
+BRDA:45,12,1,0
+FN:53,System.Char QuestBank.Core.QuestionAggregate.Question::AddAnswer(System.String)
+FNDA:0,System.Char QuestBank.Core.QuestionAggregate.Question::AddAnswer(System.String)
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,0
+DA:61,0
+DA:62,0
+BRDA:55,12,0,0
+BRDA:55,12,1,0
+FN:64,System.Void QuestBank.Core.QuestionAggregate.Question::AddSolution(System.Char,System.Char)
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.Question::AddSolution(System.Char,System.Char)
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+BRDA:66,25,0,0
+BRDA:66,25,1,0
+FN:70,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.Question::AddItem(System.String,System.String,System.String[])
+FNDA:0,QuestBank.Core.QuestionAggregate.ItemId QuestBank.Core.QuestionAggregate.Question::AddItem(System.String,System.String,System.String[])
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:82,0
+DA:84,0
+DA:86,0
+DA:87,0
+BRDA:77,87,1,0
+BRDA:77,87,0,0
+FN:94,QuestBank.Core.QuestionAggregate.Item QuestBank.Core.QuestionAggregate.Question::GetItem(System.String)
+FNDA:0,QuestBank.Core.QuestionAggregate.Item QuestBank.Core.QuestionAggregate.Question::GetItem(System.String)
+DA:95,0
+DA:96,0
+DA:98,0
+DA:99,0
+FN:108,QuestBank.Core.QuestionAggregate.Item QuestBank.Core.QuestionAggregate.Question::GenerateItem(System.Int32,System.Nullable`1<System.Char>,System.Char[])
+FNDA:0,QuestBank.Core.QuestionAggregate.Item QuestBank.Core.QuestionAggregate.Question::GenerateItem(System.Int32,System.Nullable`1<System.Char>,System.Char[])
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:121,0
+DA:122,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+BRDA:110,40,0,0
+BRDA:110,40,1,0
+BRDA:116,154,0,0
+BRDA:118,168,0,0
+BRDA:118,168,1,0
+BRDA:116,154,1,0
+BRDA:125,225,0,0
+BRDA:128,309,1,0
+BRDA:128,309,0,0
+BRDA:125,225,1,0
+BRDA:111,20,0,0
+BRDA:111,20,1,0
+FN:141,System.Boolean QuestBank.Core.QuestionAggregate.Question::IsCorrect(QuestBank.Core.QuestionAggregate.ItemId,System.Char)
+FNDA:0,System.Boolean QuestBank.Core.QuestionAggregate.Question::IsCorrect(QuestBank.Core.QuestionAggregate.ItemId,System.Char)
+DA:142,0
+DA:143,0
+DA:144,0
+DA:146,0
+DA:147,0
+DA:149,0
+DA:150,0
+BRDA:143,21,0,0
+BRDA:143,21,1,0
+BRDA:146,47,0,0
+BRDA:146,47,1,0
+FN:21,System.Void QuestBank.Core.QuestionAggregate.Question::.ctor()
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.Question::.ctor()
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+FN:29,System.Void QuestBank.Core.QuestionAggregate.Question::.ctor(System.Int32)
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.Question::.ctor(System.Int32)
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+FN:34,System.Void QuestBank.Core.QuestionAggregate.Question::.ctor(System.Int32,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Statement>,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Answer>,System.Collections.Generic.Dictionary`2<System.Char,System.String>)
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.Question::.ctor(System.Int32,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Statement>,System.Collections.Generic.List`1<QuestBank.Core.QuestionAggregate.Answer>,System.Collections.Generic.Dictionary`2<System.Char,System.String>)
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+LF:88
+LH:0
+BRF:24
+BRH:0
+FNF:15
+FNH:0
+end_of_record
+SF:/Users/guiem/Projects/QuestBank/Core/QuestionAggregate/Statement.cs
+FN:4,System.Char QuestBank.Core.QuestionAggregate.Statement::get_Id()
+FNDA:0,System.Char QuestBank.Core.QuestionAggregate.Statement::get_Id()
+DA:5,0
+FN:5,System.String QuestBank.Core.QuestionAggregate.Statement::get_Text()
+FNDA:0,System.String QuestBank.Core.QuestionAggregate.Statement::get_Text()
+DA:6,0
+FN:7,System.Void QuestBank.Core.QuestionAggregate.Statement::.ctor(System.Char,System.String)
+FNDA:0,System.Void QuestBank.Core.QuestionAggregate.Statement::.ctor(System.Char,System.String)
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/Users/guiem/Projects/QuestBank/Core/Helpers/StringHelpers.cs
+FN:7,System.String QuestBank.Core.Helpers.StringHelpers::Repeat(System.Char,System.Int32)
+FNDA:0,System.String QuestBank.Core.Helpers.StringHelpers::Repeat(System.Char,System.Int32)
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:15,0
+DA:16,0
+BRDA:10,31,1,0
+BRDA:10,31,0,0
+LF:8
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record

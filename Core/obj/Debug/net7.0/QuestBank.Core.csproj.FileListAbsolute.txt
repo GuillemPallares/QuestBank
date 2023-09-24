@@ -1,0 +1,12 @@
+/Users/guiem/Projects/QuestBank/Core/bin/Debug/net7.0/QuestBank.Core.deps.json
+/Users/guiem/Projects/QuestBank/Core/bin/Debug/net7.0/QuestBank.Core.dll
+/Users/guiem/Projects/QuestBank/Core/bin/Debug/net7.0/QuestBank.Core.pdb
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/QuestBank.Core.csproj.AssemblyReference.cache
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/QuestBank.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/QuestBank.Core.AssemblyInfoInputs.cache
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/QuestBank.Core.AssemblyInfo.cs
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/QuestBank.Core.csproj.CoreCompileInputs.cache
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/QuestBank.Core.dll
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/refint/QuestBank.Core.dll
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/QuestBank.Core.pdb
+/Users/guiem/Projects/QuestBank/Core/obj/Debug/net7.0/ref/QuestBank.Core.dll

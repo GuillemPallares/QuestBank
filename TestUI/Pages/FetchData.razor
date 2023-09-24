@@ -1,0 +1,135 @@
+﻿@page "/fetchdata"
+
+@using QuestBank.Core.QuestionAggregate;
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Question Test UI</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+<div style="display: flex; flex-flow: row; max-height: 80vh">
+    <div style="flex-grow: 1;">
+        @if (questions == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <button @onclick="AddQuestion">Add Question</button>
+
+            @generatedItem
+            <table>
+            <tr>
+                <th>Id</th>
+                <th>Statements</th>
+                <th>Answers</th>
+                <th>Solutions</th>
+                <th>Predefined</th>
+            </tr>
+            @foreach (var question in questions)
+                {
+                    <tr>
+                        <td>@question.Id</td>
+                        <td>@question.Statements.Count()</td>
+                        <td>@question.Answers.Count()</td>
+                        <td>@question.Solutions.Count()</td>
+                        <td>@question.Predefined.Count()</td>
+                        <td>
+                            <button @onclick="e => selectedQuestion = question">Select</button>
+                            <button class="btn btn-primary" @onclick="() => ModalDialog.Open()">Add Item</button>
+                            <ModalDialog @ref="@ModalDialog" Title="Add Item">
+                                <ItemAddForm Question="question" Submited="e => ModalDialog.Close()"></ItemAddForm>
+                            </ModalDialog>
+                            <button>Add Statements</button>
+                            <button>Add Answers</button>
+                            <button>Add Solution</button>
+                            <button @onclick="e => generatedItem = question.GenerateItem().Id.ToString()">Generate Item</button>
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+    </div>
+    <div style="flex-grow: 0; overflow-y: auto">
+        @if (selectedQuestion == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <table>
+                <tr>
+                    <th>Statements</th>
+                </tr>
+                @foreach (var statement in selectedQuestion.Statements)
+                {
+                    <tr>
+                        @statement.Id
+                        -
+                        @statement.Text
+                    </tr>
+                }
+                <tr>
+                    <th>Answers</th>
+                </tr>
+                @foreach (var answer in selectedQuestion.Answers)
+                {
+                    <tr>
+                        @answer.Id
+                        -
+                        @answer.Text
+                    </tr>
+                }
+                <tr>
+                    <th>Solutions</th>
+                </tr>
+                @foreach (var solution in selectedQuestion.Solutions)
+                {
+                    <tr>
+                        @solution.Key
+                        -
+                        @solution.Value
+                    </tr>
+                }
+                <tr>
+                    <th>Predefined</th>
+                </tr>
+                @foreach (var predefined in selectedQuestion.Predefined)
+                {
+                    <tr>
+                        @predefined.ToString();
+                    </tr>
+                }
+            </table>
+        }
+    </div>
+</div>
+
+@code {
+
+    private ModalDialog ModalDialog { get; set; }
+    public string generatedItem = string.Empty;
+    public Question? selectedQuestion;
+    private List<Question>? questions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        questions = new();
+    }
+
+    private void AddQuestion()
+    => questions!.Add(new Question(questions.Count()));
+
+    private void AddItem(Question question)
+    {
+        question.AddItem(
+        "Test Statement",
+        "Correct Answer",
+        "False Answer",
+        "False Answer",
+        "False Answer"
+        );
+    }
+
+}

@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/obj/Debug/net7.0/scopedcss/projectbundle/QuestBank.TestUI.bundle.scp.css",
+      "PackagePath": "staticwebassets/QuestBank.TestUI.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/guiem/Projects/QuestBank/TestUI/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.QuestBank.TestUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.QuestBank.TestUI.props",
+      "PackagePath": "build\\QuestBank.TestUI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.QuestBank.TestUI.props",
+      "PackagePath": "buildMultiTargeting\\QuestBank.TestUI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.QuestBank.TestUI.props",
+      "PackagePath": "buildTransitive\\QuestBank.TestUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

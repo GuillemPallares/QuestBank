@@ -1,0 +1,60 @@
+﻿<EditForm Model="@Model">
+    <div class="mb-3">
+        <label class="form-label">Statement</label>
+        <InputText class="form-control" @bind-Value="Model.Statement" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Correct Answer</label>
+        <InputText class="form-control" @bind-Value="Model.Correct" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">False Answers</label>
+        @foreach(var answer in Model.Answers)
+        {
+            <Input class="form-control" value="@answer" disabled/>
+        }
+        <InputText class="form-control" @bind-Value="_answer" />
+    </div>
+    <button @onclick="AddAnswer">Add Answer</button>
+
+    <button @onclick="Submit">Submit</button>
+</EditForm>
+
+@code 
+{
+    [Parameter]
+    public Question Question {get; set;}
+
+    public ItemDTO Model {get; set;}
+    private string _answer {get; set;}
+
+    [Parameter]
+    public EventCallback Submited {get; set;}
+
+    protected override void OnInitialized() => Model ??= new();
+
+    public void AddAnswer()
+    {
+        Model.Answers.Add(_answer);
+        _answer = string.Empty;
+    }
+
+    private async Task Submit()
+    {
+        Question.AddItem(Model.Statement, Model.Correct, Model.Answers.ToArray());
+        Model = new();
+        await Submited.InvokeAsync();
+    }
+
+    public class ItemDTO 
+    {
+        public string Statement {get; set;}
+        public string Correct {get; set;}
+        public List<string> Answers {get; set;}
+
+        public ItemDTO()
+        {
+            Answers = new();
+        }
+    }
+}
